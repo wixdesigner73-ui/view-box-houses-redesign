@@ -1,0 +1,860 @@
+[
+  {
+    "product": "brasov",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/brasov/white-ai-brasov-alb.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/brasov/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "brasov",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/brasov/brown-ai-brasov3.jpg",
+      "site/assets/img/houses/brasov/brown-ai-brasov3-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/brasov/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "brasov",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/brasov/grey-ai-brasov2.jpg",
+      "site/assets/img/houses/brasov/grey-ai-brasov2-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/brasov/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "brasov",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/brasov/wood-ai-brasov1.jpg",
+      "site/assets/img/houses/brasov/wood-ai-brasov1-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/brasov/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "brasov",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/brasov/green-ai-brasov4.jpg",
+      "site/assets/img/houses/brasov/green-ai-brasov4-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/brasov/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "prague",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/prague/white-ai-prague-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/prague/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "prague",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/prague/brown-ai-prague3.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/prague/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "prague",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/prague/grey-ai-prague2.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/prague/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "prague",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/prague/wood-ai-prague1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/prague/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "prague",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/prague/green-ai-prague4.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/prague/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "santorini",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/santorini/white-ai-santorini-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/santorini/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "santorini",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/santorini/brown-ai-santorini3.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/santorini/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "santorini",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/santorini/grey-ai-santorini4.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/santorini/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "santorini",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/santorini/wood-ai-santorini1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/santorini/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "santorini",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/santorini/green-ai-santorini2.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/santorini/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "amalfi",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/amalfi/white-ai-amalfi-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/amalfi/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "amalfi",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/amalfi/brown-ai-amalfi3.jpg",
+      "site/assets/img/houses/amalfi/brown-ai-amalfi3-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/amalfi/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "amalfi",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/amalfi/grey-ai-amalfi4.jpg",
+      "site/assets/img/houses/amalfi/grey-ai-amalfi4-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/amalfi/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "amalfi",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/amalfi/wood-ai-amalfi2.jpg",
+      "site/assets/img/houses/amalfi/wood-ai-amalfi2-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/amalfi/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "amalfi",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/amalfi/green-ai-amalfi1.jpg",
+      "site/assets/img/houses/amalfi/green-ai-amalfi1-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/amalfi/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "barcelona",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/barcelona/white-ai-barcelona-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/barcelona/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "barcelona",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/barcelona/brown-ai-barcelona3.jpg",
+      "site/assets/img/houses/barcelona/brown-ai-barcelona3-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/barcelona/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "barcelona",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/barcelona/grey-ai-barcelona4.jpg",
+      "site/assets/img/houses/barcelona/grey-ai-barcelona4-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/barcelona/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "barcelona",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/barcelona/wood-ai-barcelona1.jpg",
+      "site/assets/img/houses/barcelona/wood-ai-barcelona1-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/barcelona/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "barcelona",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/barcelona/green-ai-barcelona2.jpg",
+      "site/assets/img/houses/barcelona/green-ai-barcelona2-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/barcelona/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "madeira",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/madeira/white-ai-madeira-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/madeira/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "madeira",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/madeira/brown-ai-madeira3.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/madeira/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "madeira",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/madeira/grey-ai-madeira4.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/madeira/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "madeira",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/madeira/wood-ai-madeira1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/madeira/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "madeira",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/madeira/green-ai-madeira2.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/madeira/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "london",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/london/white-ai-london-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/london/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "london",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/brown-ai-london3.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/london/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "london",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/grey-ai-london2.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/london/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "london",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/london/wood-ai-london1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/london/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "london",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/green-ai-london4.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/london/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "oslo",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/oslo/grey-ai-oslo2.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "oslo",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/oslo/green-ai-oslo5.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "oslo",
+    "colorKey": "graphite",
+    "colorName": "Graphite",
+    "swatchHex": "#2b2f33",
+    "description": "As shown in render",
+    "aiImages": [
+      "site/assets/img/houses/oslo/graphite-ai-oslo1-1.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "antalya",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/antalya/white-ai-antalya-white.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/antalya/white-render.jpg",
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "antalya",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/antalya/brown-ai-antalya4.jpg",
+      "site/assets/img/houses/antalya/brown-ai-antalya4-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/antalya/brown-render.jpg",
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "antalya",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/antalya/grey-ai-antalya1.jpg",
+      "site/assets/img/houses/antalya/grey-ai-antalya1-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/antalya/grey-render.jpg",
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "antalya",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/antalya/wood-ai-antalya2.jpg",
+      "site/assets/img/houses/antalya/wood-ai-antalya2-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/antalya/wood-render.jpg",
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "antalya",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/antalya/green-ai-antalya3.jpg",
+      "site/assets/img/houses/antalya/green-ai-antalya3-1.jpg"
+    ],
+    "studioImage": "site/assets/img/houses/antalya/green-render.jpg",
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "two-story-house",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/houses/london/white-ai-london-white.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "two-story-house",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/brown-ai-london3.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "two-story-house",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/grey-ai-london2.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "two-story-house",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [
+      "site/assets/img/houses/london/wood-ai-london1.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "two-story-house",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [
+      "site/assets/img/houses/london/green-ai-london4.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "tiny-home",
+    "colorKey": "chestnut",
+    "colorName": "Chestnut",
+    "swatchHex": "#7a4a2b",
+    "description": "Wood finish",
+    "aiImages": [
+      "site/assets/img/categories/tiny-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "expandable-37",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/expandable-containers-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "expandable-74",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/expandable-containers-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "modular-m1",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/modular-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "modular-m2",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/modular-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "saint-tropez",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/modular-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "base-70",
+    "colorKey": "woodblack",
+    "colorName": "Wood & Black",
+    "swatchHex": "#6a3f24",
+    "description": "As shown",
+    "aiImages": [
+      "site/assets/img/categories/modular-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "london-floating",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/categories/floating-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "london-floating",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "london-floating",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "london-floating",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "london-floating",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "barcelona-floating",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/categories/floating-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "barcelona-floating",
+    "colorKey": "brown",
+    "colorName": "Dark Brown",
+    "swatchHex": "#3a2a22",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "barcelona-floating",
+    "colorKey": "grey",
+    "colorName": "Light Grey",
+    "swatchHex": "#c3c7ca",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "barcelona-floating",
+    "colorKey": "wood",
+    "colorName": "Wood",
+    "swatchHex": "#c68c58",
+    "description": "Wood-effect finish",
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "barcelona-floating",
+    "colorKey": "green",
+    "colorName": "Forest Green",
+    "swatchHex": "#1e3a28",
+    "description": null,
+    "aiImages": [],
+    "studioImage": null,
+    "hasRender": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "lightning-mcqueen",
+    "colorKey": "white",
+    "colorName": "White",
+    "swatchHex": "#f4f4f1",
+    "description": "Standard white finish",
+    "aiImages": [
+      "site/assets/img/categories/floating-homes-hero.jpg"
+    ],
+    "studioImage": null,
+    "hasRender": true,
+    "sortOrder": 1
+  }
+]

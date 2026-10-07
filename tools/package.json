@@ -1,0 +1,1 @@
+{ "name": "view-box-tools", "private": true, "description": "Build scripts for the View Box redesign (run: npm install, then node <script>)", "dependencies": { "sharp": "^0.33.0", "xlsx": "^0.18.5" } }

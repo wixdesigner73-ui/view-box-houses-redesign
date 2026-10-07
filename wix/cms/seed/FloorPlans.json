@@ -1,0 +1,56 @@
+[
+  {
+    "product": "brasov",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/brasov.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "prague",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/prague.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "santorini",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/santorini.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "amalfi",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/amalfi.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "barcelona",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/barcelona.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "madeira",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/madeira.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "london",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/london.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "oslo",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/oslo.jpg",
+    "sortOrder": 1
+  },
+  {
+    "product": "antalya",
+    "label": "Floor Plan 1",
+    "image": "site/assets/img/plans/antalya.jpg",
+    "sortOrder": 1
+  }
+]

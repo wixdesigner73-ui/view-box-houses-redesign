@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "capsule-homes",
+    "name": "Capsule Homes",
+    "badge": "Luxury",
+    "eyebrow": "CAPSULE HOMES",
+    "titleLine1": "Iconic Design.",
+    "titleLine2": "A New Way to Live.",
+    "lead": "Modern, versatile and fully equipped homes for any destination.",
+    "cardTagline": "Iconic design. A new way to live.",
+    "listTitle": "Capsule Homes",
+    "listLead": "9 unique models. Same premium quality. Different styles for different lifestyles.",
+    "layout": "grid",
+    "rating": 4.9,
+    "reviewCount": 72,
+    "fromPerM2": 839,
+    "heroImage": "site/assets/img/categories/capsule-homes-hero.jpg",
+    "cardImage": "site/assets/img/categories/capsule-homes-card.jpg",
+    "features": [
+      {
+        "icon": "diamond",
+        "text": "Premium design"
+      },
+      {
+        "icon": "leaf",
+        "text": "Energy efficient"
+      },
+      {
+        "icon": "shield",
+        "text": "50-year structural warranty"
+      },
+      {
+        "icon": "truck",
+        "text": "Delivered across Europe"
+      }
+    ],
+    "strip": [],
+    "sortOrder": 1
+  },
+  {
+    "slug": "tiny-homes",
+    "name": "Tiny Homes",
+    "badge": "Comfort",
+    "eyebrow": "TINY HOMES",
+    "titleLine1": "Big Living.",
+    "titleLine2": "A Smaller Footprint.",
+    "lead": "Smart, stylish homes designed for a simpler, more flexible lifestyle.",
+    "cardTagline": "Compact living, big possibilities.",
+    "listTitle": "Tiny Homes",
+    "listLead": "1 unique model. Premium quality. A smarter way to live.",
+    "layout": "feature",
+    "rating": 4.8,
+    "reviewCount": 6,
+    "fromPerM2": 514,
+    "heroImage": "site/assets/img/categories/tiny-homes-hero.jpg",
+    "cardImage": "site/assets/img/categories/tiny-homes-card.jpg",
+    "features": [
+      {
+        "icon": "leaf",
+        "text": "Energy efficient"
+      },
+      {
+        "icon": "home",
+        "text": "Modern design"
+      },
+      {
+        "icon": "shield",
+        "text": "50-year structural warranty"
+      },
+      {
+        "icon": "truck",
+        "text": "Delivered across Europe"
+      }
+    ],
+    "strip": [],
+    "sortOrder": 2
+  },
+  {
+    "slug": "expandable-containers",
+    "name": "Expandable Containers",
+    "badge": "Best value",
+    "eyebrow": "EXPANDABLE CONTAINERS",
+    "titleLine1": "More Space.",
+    "titleLine2": "More Possibilities.",
+    "lead": "Practical, modern homes that adapt to your needs.",
+    "cardTagline": "Maximum space for the lowest investment.",
+    "listTitle": "Expandable Containers",
+    "listLead": "2 models. Flexible living for families, tourism and business.",
+    "layout": "columns",
+    "rating": 4.6,
+    "reviewCount": 4,
+    "fromPerM2": 419,
+    "heroImage": "site/assets/img/categories/expandable-containers-hero.jpg",
+    "cardImage": "site/assets/img/categories/expandable-containers-card.jpg",
+    "features": [
+      {
+        "icon": "home",
+        "text": "Expandable design"
+      },
+      {
+        "icon": "gear",
+        "text": "Fast installation"
+      },
+      {
+        "icon": "leaf",
+        "text": "Cost effective"
+      },
+      {
+        "icon": "truck",
+        "text": "Delivered across Europe"
+      }
+    ],
+    "strip": [],
+    "sortOrder": 3
+  },
+  {
+    "slug": "modular-homes",
+    "name": "Modular Homes",
+    "badge": "Flexible",
+    "eyebrow": "MODULAR HOMES",
+    "titleLine1": "Built for Real Life.",
+    "titleLine2": "Designed for More.",
+    "lead": "Modern modular homes for everyday living or real estate developments. Flexible, efficient and built to last.",
+    "cardTagline": "Flexible layouts for modern living.",
+    "listTitle": "Modular Homes",
+    "listLead": "Three unique designs for modern living and smart investment.",
+    "layout": "rows",
+    "rating": null,
+    "reviewCount": 0,
+    "fromPerM2": 650,
+    "heroImage": "site/assets/img/categories/modular-homes-hero.jpg",
+    "cardImage": "site/assets/img/categories/modular-homes-card.jpg",
+    "features": [
+      {
+        "icon": "home",
+        "text": "Modern design"
+      },
+      {
+        "icon": "gear",
+        "text": "Fast installation"
+      },
+      {
+        "icon": "leaf",
+        "text": "Cost effective"
+      },
+      {
+        "icon": "truck",
+        "text": "Delivered across Europe"
+      }
+    ],
+    "strip": [
+      {
+        "icon": "home",
+        "text": "Ideal for day-to-day living"
+      },
+      {
+        "icon": "building",
+        "text": "Perfect for real estate developers"
+      },
+      {
+        "icon": "leaf",
+        "text": "Energy efficient and sustainable"
+      },
+      {
+        "icon": "layers",
+        "text": "Flexible layouts and customization"
+      }
+    ],
+    "sortOrder": 4
+  },
+  {
+    "slug": "mobile-and-floating-homes",
+    "name": "Mobile & Floating Homes",
+    "badge": "Exclusive",
+    "eyebrow": "MOBILE & FLOATING HOMES",
+    "titleLine1": "Live Beyond",
+    "titleLine2": "Boundaries.",
+    "lead": "On the water or on the road. Exceptional homes for a freedom-filled lifestyle.",
+    "cardTagline": "Take your home anywhere.",
+    "listTitle": "Mobile & Floating Homes",
+    "listLead": "Three unique models for a new way of living.",
+    "layout": "rows",
+    "rating": 5,
+    "reviewCount": 3,
+    "fromPerM2": 1490,
+    "heroImage": "site/assets/img/categories/floating-homes-hero.jpg",
+    "cardImage": "site/assets/img/categories/floating-homes-card.jpg",
+    "features": [
+      {
+        "icon": "waves",
+        "text": "On water or on land"
+      },
+      {
+        "icon": "diamond",
+        "text": "Premium design"
+      },
+      {
+        "icon": "leaf",
+        "text": "Flexible lifestyle"
+      },
+      {
+        "icon": "globe",
+        "text": "Delivered across Europe"
+      }
+    ],
+    "strip": [
+      {
+        "icon": "diamond",
+        "text": "Premium materials"
+      },
+      {
+        "icon": "pin",
+        "text": "Unique locations"
+      },
+      {
+        "icon": "leaf",
+        "text": "Sustainable living"
+      },
+      {
+        "icon": "gear",
+        "text": "Fully customizable layouts"
+      }
+    ],
+    "sortOrder": 5
+  }
+]

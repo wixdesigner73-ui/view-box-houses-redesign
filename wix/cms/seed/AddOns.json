@@ -1,0 +1,1610 @@
+[
+  {
+    "product": "brasov",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "brasov",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "brasov",
+    "name": "Triple glazing upgrade",
+    "price": 620,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "brasov",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 580,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "brasov",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 850,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "brasov",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "brasov",
+    "name": "Add 4 wheels",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "prague",
+    "name": "Triple glazing upgrade",
+    "price": 700,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "prague",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 760,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "prague",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 1250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "prague",
+    "name": "Upgrade inverter (12,000 → 18,000 BTU)",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "prague",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "prague",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "prague",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "prague",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "prague",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "prague",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "prague",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "prague",
+    "name": "Mirror glass",
+    "price": 1150,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "prague",
+    "name": "Wood-effect exterior finish",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "prague",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "prague",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "prague",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "prague",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "prague",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "prague",
+    "name": "Add 4 wheels",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "santorini",
+    "name": "Triple glazing upgrade",
+    "price": 700,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "santorini",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 760,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "santorini",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 1250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "santorini",
+    "name": "Upgrade inverter (12,000 → 18,000 BTU)",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "santorini",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "santorini",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "santorini",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "santorini",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "santorini",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "santorini",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "santorini",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "santorini",
+    "name": "Balcony set",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "santorini",
+    "name": "Mirror glass",
+    "price": 1150,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "santorini",
+    "name": "Wood-effect exterior finish",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "santorini",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "santorini",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "santorini",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "santorini",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "santorini",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "santorini",
+    "name": "Add 4 wheels",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "amalfi",
+    "name": "Triple glazing upgrade",
+    "price": 1150,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "amalfi",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 825,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "amalfi",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 1950,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "amalfi",
+    "name": "Upgrade inverter (12,000 → 18,000 BTU)",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "amalfi",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "amalfi",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "amalfi",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "amalfi",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "amalfi",
+    "name": "Balcony set",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "amalfi",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "amalfi",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "amalfi",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "amalfi",
+    "name": "Mirror glass",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "amalfi",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "amalfi",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "amalfi",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "amalfi",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "amalfi",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "amalfi",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "amalfi",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "amalfi",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "amalfi",
+    "name": "Add 4 wheels",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "barcelona",
+    "name": "Triple glazing upgrade",
+    "price": 1200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "barcelona",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 1050,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "barcelona",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 1950,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "barcelona",
+    "name": "Upgrade inverter (12,000 → 18,000 BTU)",
+    "price": 500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "barcelona",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "barcelona",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "barcelona",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "barcelona",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "barcelona",
+    "name": "Sofa (Standard)",
+    "price": 525,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "barcelona",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "barcelona",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "barcelona",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "barcelona",
+    "name": "Extra glass door (living)",
+    "price": 500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "barcelona",
+    "name": "Mirror glass",
+    "price": 1270,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "barcelona",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "barcelona",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "barcelona",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "barcelona",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "barcelona",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "barcelona",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "barcelona",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "barcelona",
+    "name": "Add 4 wheels",
+    "price": 1400,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "madeira",
+    "name": "Triple glazing upgrade",
+    "price": 1750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "madeira",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 1550,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "madeira",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 2650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "madeira",
+    "name": "Upgrade inverter (12,000 → 24,000 BTU)",
+    "price": 750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "madeira",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "madeira",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "madeira",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "madeira",
+    "name": "Sofa (Standard)",
+    "price": 525,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "madeira",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "madeira",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "madeira",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "madeira",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "madeira",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 13
+  },
+  {
+    "product": "madeira",
+    "name": "Premium kitchen",
+    "price": 2200,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "madeira",
+    "name": "Sofa (Premium)",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "madeira",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "madeira",
+    "name": "Mirror glass",
+    "price": 1550,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "madeira",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "madeira",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "madeira",
+    "name": "Built-in oven (Beko)",
+    "price": 600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "madeira",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "madeira",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "madeira",
+    "name": "Dishwasher (Beko)",
+    "price": 750,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "madeira",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 11
+  },
+  {
+    "product": "madeira",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 12
+  },
+  {
+    "product": "madeira",
+    "name": "Washer-dryer (Miele)",
+    "price": 2900,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 13
+  },
+  {
+    "product": "madeira",
+    "name": "Add 6 wheels",
+    "price": 2100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 14
+  },
+  {
+    "product": "london",
+    "name": "Triple glazing upgrade",
+    "price": 1750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "london",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 1550,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "london",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 2650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "london",
+    "name": "Upgrade inverter (12,000 → 24,000 BTU)",
+    "price": 750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "london",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "london",
+    "name": "Premium kitchen",
+    "price": 2200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "london",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "london",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "london",
+    "name": "Sofa (Premium)",
+    "price": 1600,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "london",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "london",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "london",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "london",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 13
+  },
+  {
+    "product": "london",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "london",
+    "name": "Sofa (Standard)",
+    "price": 525,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "london",
+    "name": "Extra glass door (living)",
+    "price": 500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "london",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "london",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "london",
+    "name": "Mirror glass",
+    "price": 1550,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "london",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "london",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "london",
+    "name": "Built-in oven (Beko)",
+    "price": 600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "london",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "london",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 11
+  },
+  {
+    "product": "london",
+    "name": "Dishwasher (Beko)",
+    "price": 750,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 12
+  },
+  {
+    "product": "london",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 13
+  },
+  {
+    "product": "london",
+    "name": "Washer-dryer (Miele)",
+    "price": 2900,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 14
+  },
+  {
+    "product": "london",
+    "name": "Add 6 wheels",
+    "price": 2100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 15
+  },
+  {
+    "product": "oslo",
+    "name": "Triple glazing upgrade",
+    "price": 1750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "oslo",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 1550,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "oslo",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 2650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "oslo",
+    "name": "Upgrade inverter (12,000 → 24,000 BTU)",
+    "price": 750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "oslo",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "oslo",
+    "name": "Premium kitchen",
+    "price": 2200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "oslo",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "oslo",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "oslo",
+    "name": "Sofa (Premium)",
+    "price": 1600,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "oslo",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "oslo",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "oslo",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "oslo",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 13
+  },
+  {
+    "product": "oslo",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "oslo",
+    "name": "Sofa (Standard)",
+    "price": 525,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "oslo",
+    "name": "Extra glass door (living)",
+    "price": 500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "oslo",
+    "name": "Mini fridge",
+    "price": 200,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "oslo",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "oslo",
+    "name": "Mirror glass",
+    "price": 1550,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "oslo",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "oslo",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "oslo",
+    "name": "Built-in oven (Beko)",
+    "price": 600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "oslo",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "oslo",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 11
+  },
+  {
+    "product": "oslo",
+    "name": "Dishwasher (Beko)",
+    "price": 750,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 12
+  },
+  {
+    "product": "oslo",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 13
+  },
+  {
+    "product": "oslo",
+    "name": "Washer-dryer (Miele)",
+    "price": 2900,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 14
+  },
+  {
+    "product": "oslo",
+    "name": "Add 6 wheels",
+    "price": 2100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 15
+  },
+  {
+    "product": "antalya",
+    "name": "Triple glazing upgrade",
+    "price": 1750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "antalya",
+    "name": "Underfloor heating + pipe freeze protection",
+    "price": 1550,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "antalya",
+    "name": "Nordic insulation package (20/15 cm)",
+    "price": 2650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 3
+  },
+  {
+    "product": "antalya",
+    "name": "Upgrade inverter (12,000 → 24,000 BTU)",
+    "price": 750,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 4
+  },
+  {
+    "product": "antalya",
+    "name": "Projector + screen",
+    "price": 350,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 5
+  },
+  {
+    "product": "antalya",
+    "name": "Premium kitchen",
+    "price": 2200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 6
+  },
+  {
+    "product": "antalya",
+    "name": "Wardrobes (2 pcs)",
+    "price": 650,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 7
+  },
+  {
+    "product": "antalya",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 8
+  },
+  {
+    "product": "antalya",
+    "name": "Sofa (Premium)",
+    "price": 1600,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 9
+  },
+  {
+    "product": "antalya",
+    "name": "Entrance stairs",
+    "price": 200,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 10
+  },
+  {
+    "product": "antalya",
+    "name": "Built-in fridge (Beko)",
+    "price": 800,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 11
+  },
+  {
+    "product": "antalya",
+    "name": "Washer-dryer (Beko)",
+    "price": 850,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 12
+  },
+  {
+    "product": "antalya",
+    "name": "Microwave (Beko)",
+    "price": 250,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 13
+  },
+  {
+    "product": "antalya",
+    "name": "Standard kitchen",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "antalya",
+    "name": "Sofa (Standard)",
+    "price": 525,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "antalya",
+    "name": "Extra glass door (living)",
+    "price": 500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "antalya",
+    "name": "Toilet with integrated bidet",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 4
+  },
+  {
+    "product": "antalya",
+    "name": "Mini fridge",
+    "price": 250,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 5
+  },
+  {
+    "product": "antalya",
+    "name": "Mirror glass",
+    "price": 1550,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 6
+  },
+  {
+    "product": "antalya",
+    "name": "Wood-effect exterior finish",
+    "price": 1800,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 7
+  },
+  {
+    "product": "antalya",
+    "name": "Pergola with LED lighting",
+    "price": 1600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 8
+  },
+  {
+    "product": "antalya",
+    "name": "Built-in oven (Beko)",
+    "price": 600,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 9
+  },
+  {
+    "product": "antalya",
+    "name": "Jura coffee machine",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 10
+  },
+  {
+    "product": "antalya",
+    "name": "JBL soundbar",
+    "price": 1100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 11
+  },
+  {
+    "product": "antalya",
+    "name": "Dishwasher (Beko)",
+    "price": 750,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 12
+  },
+  {
+    "product": "antalya",
+    "name": "Built-in fridge (Miele)",
+    "price": 2500,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 13
+  },
+  {
+    "product": "antalya",
+    "name": "Washer-dryer (Miele)",
+    "price": 2900,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 14
+  },
+  {
+    "product": "antalya",
+    "name": "Add 6 wheels",
+    "price": 2100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 15
+  }
+]
