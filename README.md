@@ -1,5 +1,7 @@
 # View Box Houses – redesign
 
+**Live preview:** https://wixdesigner73-ui.github.io/view-box-houses-redesign/  ·  Repo: https://github.com/wixdesigner73-ui/view-box-houses-redesign  (the `gh-pages` branch is the `site/` folder; to redeploy run `git subtree push --prefix site origin gh-pages`)
+
 Mobile-first redesign built from the client mockups, the existing site content and the supplied renders/price sheet.
 
 | Folder | What it is |
