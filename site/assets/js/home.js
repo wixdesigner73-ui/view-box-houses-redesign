@@ -65,10 +65,10 @@ window.VBPage = function (UI) {
 
   /* 4. find your view box */
   const cats = `
-  <section class="section on-white on-light-text" id="find">
-    <div class="container">
+  <section class="rp rp--panel" id="find">
+    <div class="container"><div class="panel">
       <div class="sec-head center reveal"><span class="eyebrow eyebrow--ink">Find your View Box</span>
-        <h2 class="h-section" style="margin-top:12px;color:var(--ink)">Choose Your Type of Home</h2>
+        <h2 class="h-section" style="margin-top:12px">Choose Your Type of Home</h2>
         <p class="lead">Five unique ways to live, invest or create unforgettable experiences. Which one is right for you?</p></div>
       <div class="cat-grid">${VB.CATEGORIES.map((c, i) => {
         const from = VB.fromPrice(c.slug);
@@ -80,7 +80,7 @@ window.VBPage = function (UI) {
           <span class="round-btn">${ico("arrowUpRight")}</span></article>`;
       }).join("")}</div>
       <div class="reveal" style="margin-top:22px"><a class="btn btn--outline btn--block" href="${categoryUrl(VB.CATEGORIES[0])}">${ico("chart")} Compare All Models ${ico("arrow")}</a></div>
-    </div>
+    </div></div>
   </section>`;
 
   /* 5. showrooms */
@@ -120,7 +120,7 @@ window.VBPage = function (UI) {
     <h2>Ready to find your perfect home?</h2><p>Get a personalized offer from our team.</p>
     <a class="btn btn--dark" href="contact.html">Contact Us ${ico("arrow")}</a></div></div></section>`;
 
-  $("#main").innerHTML = hero + fs + cats + showrooms + projects + global + news + cta;
+  $("#main").innerHTML = hero + fs + projects + cats + showrooms + global + news + cta;
   UI.slider($("#rp-stage"), { auto: 7000 });
   const fsEl = $(".fs");
   UI.slider(fsEl, { auto: 7000, slide: ".fs__slide", dots: ".fs__tabs button", scope: fsEl });
