@@ -234,7 +234,7 @@
           <a href="about.html" ${cur("about")}>About</a><a href="deliveries.html" ${cur("deliveries")}>Deliveries</a><a href="showrooms.html" ${cur("showrooms")}>Showrooms</a><a href="blog.html" ${cur("blog")}>Blog</a><a href="contact.html" ${cur("contact")}>Contact</a>
         </nav>
         <div class="hdr__tools">${langHtml}
-          <a class="btn btn--sm hdr__cta ${mode === "overlay" ? "btn--light" : "btn--dark"}" href="contact.html">${ico("phone")} Talk to Sales</a>
+          <a class="btn btn--sm hdr__cta btn--light" href="contact.html">${ico("phone")} Talk to Sales</a>
           <button class="burger" id="burger" aria-label="Open menu" aria-controls="drawer">${ico("menu")}</button></div>
       </div></header>
       <div class="drawer" id="drawer" aria-hidden="true"><div class="drawer__head"><a class="logo" href="index.html">VIEW BOX<small>HOUSES</small></a><button class="burger" id="burger-x" aria-label="Close menu">${ico("close")}</button></div>
@@ -256,8 +256,16 @@
         <a class="btn btn--outline btn--sm" href="mailto:${VB.SITE.email}">${ico("mail")} Email us</a></div>`;
   }
 
+  /* fixed full-page image + dark overlay behind every page (pages may swap the image with setBg) */
+  function setBg(src) {
+    let el = $(".page-bg");
+    if (!el) { el = document.createElement("div"); el.className = "page-bg"; el.setAttribute("aria-hidden", "true"); document.body.prepend(el); }
+    el.innerHTML = `<img src="${src}" alt="" decoding="async">`;
+  }
+
   function shell() {
     const body = document.body, page = body.dataset.page, mode = body.dataset.header || "light";
+    setBg(VB.BG.hero);
     const main = $("#main");
     main.insertAdjacentHTML("beforebegin", header(page, mode));
     main.insertAdjacentHTML("afterend", footer());
@@ -285,8 +293,8 @@
   }
 
   /* ---------- generic slider with dots + swipe (used for editorial slides) ---------- */
-  function slider(root, { auto = 0 } = {}) {
-    const slides = $$(".rp__slide", root), dots = $$(".dots button", root.parentElement), count = $(".rp__count", root);
+  function slider(root, { auto = 0, slide = ".rp__slide", dots: dotsSel = ".dots button", scope = root.parentElement } = {}) {
+    const slides = $$(slide, root), dots = $$(dotsSel, scope), count = $(".rp__count", root);
     let i = 0, timer;
     const go = (n) => {
       i = (n + slides.length) % slides.length;
@@ -298,13 +306,14 @@
     $("[data-prev]", root).addEventListener("click", () => { go(i - 1); restart(); });
     $("[data-next]", root).addEventListener("click", () => { go(i + 1); restart(); });
     dots.forEach((d, k) => d.addEventListener("click", () => { go(k); restart(); }));
-    let x0 = null;
-    root.addEventListener("pointerdown", (e) => { x0 = e.clientX; });
-    root.addEventListener("pointerup", (e) => { if (x0 !== null && Math.abs(e.clientX - x0) > 40) { go(i + (e.clientX < x0 ? 1 : -1)); restart(); } x0 = null; });
+    let x0 = null, swiped = false;
+    root.addEventListener("pointerdown", (e) => { x0 = e.clientX; swiped = false; });
+    root.addEventListener("pointerup", (e) => { if (x0 !== null && Math.abs(e.clientX - x0) > 40) { swiped = true; go(i + (e.clientX < x0 ? 1 : -1)); restart(); } x0 = null; });
+    root.addEventListener("click", (e) => { if (swiped) { e.preventDefault(); swiped = false; } }, true); // a swipe must not open the linked page
     go(0); restart();
   }
 
-  window.VBUI = { $, $$, ico, esc, fmtDate, params, rate, stars5, featureList, productUrl, categoryUrl, img, reveal, openModal, closeModal, swapImage, swatches, bindSwatches, productCard, bindProductCards, modelCard, bindModelCards, deliveriesBanner, statsBar, slider, safe };
+  window.VBUI = { $, $$, ico, esc, fmtDate, params, rate, stars5, featureList, productUrl, categoryUrl, img, reveal, openModal, closeModal, swapImage, swatches, bindSwatches, productCard, bindProductCards, modelCard, bindModelCards, deliveriesBanner, statsBar, slider, setBg, safe };
 
   document.addEventListener("DOMContentLoaded", () => {
     shell();

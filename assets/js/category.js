@@ -1,10 +1,11 @@
 /* Category pages: ?c=capsule-homes | tiny-homes | expandable-containers | modular-homes | mobile-and-floating-homes */
 window.VBPage = function (UI) {
-  const { $, ico, img, params, productCard, modelCard, bindProductCards, bindModelCards, deliveriesBanner, statsBar, featureList } = UI;
+  const { $, ico, img, params, setBg, productCard, modelCard, bindProductCards, bindModelCards, deliveriesBanner, statsBar, featureList } = UI;
   const VB = window.VB;
   const c = VB.categoryBySlug(params.get("c")) || VB.CATEGORIES[0];
   document.title = `${c.name} – View Box Houses`;
   const products = VB.productsOf(c.slug);
+  setBg(c.image.hero);
 
   const hero = `
   <section class="hero hero--cat" aria-label="${c.name}">
