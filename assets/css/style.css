@@ -797,3 +797,29 @@ a:hover > .link-arrow .ico, .link-arrow:hover .ico { transform: translateX(4px);
 }
 @media (min-width: 1000px) { .fs__slide::after { background: linear-gradient(90deg, rgba(6, 11, 21, .78) 0%, rgba(6, 11, 21, .25) 50%, rgba(6, 11, 21, .05) 100%), linear-gradient(180deg, rgba(6, 11, 21, .4) 0%, transparent 25%, transparent 60%, rgba(6, 11, 21, .85) 100%); } }
 @media (max-width: 719px) { .fs__tabs { padding-right: 70px; } } /* keep clear of the live-chat button */
+
+/* =========================================================
+   HOMEPAGE — follows the client mockup exactly: white rounded panels
+   (Real projects, Find your View Box, news cards, CTA) over the dark image
+   ========================================================= */
+body[data-page="home"] .panel, body[data-page="home"] .cta-box, body[data-page="home"] .news-card {
+  --ink: #0d1522; --text: #1a2230; --muted: #5d6676; --paper: #f6f5f2; --line: rgba(13, 21, 34, .1); --gold-ink: #a8730f; --sale: #d8261b;
+  background: #fff; color: var(--text); border: 0; backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+body[data-page="home"] .panel { border-radius: 28px; padding: 36px 16px 28px; }
+body[data-page="home"] .cat-card { background: #fff; border: 1px solid var(--line); backdrop-filter: none; color: var(--text); }
+body[data-page="home"] .cat-card:hover { box-shadow: 0 1px 2px rgba(13, 21, 34, .04), 0 8px 24px rgba(13, 21, 34, .06); }
+body[data-page="home"] .cat-card h3, body[data-page="home"] .cta-box h2, body[data-page="home"] .news-card h3, body[data-page="home"] .h-section { color: var(--ink); }
+body[data-page="home"] .panel .btn--dark, body[data-page="home"] .cta-box .btn--dark { background: var(--ink); color: #fff; }
+body[data-page="home"] .panel .btn--dark:hover, body[data-page="home"] .cta-box .btn--dark:hover { background: #17233a; box-shadow: 0 10px 24px rgba(13, 21, 34, .25); }
+body[data-page="home"] .panel .btn--outline { background: #fff; border-color: var(--line); color: var(--ink); backdrop-filter: none; }
+body[data-page="home"] .panel .btn--outline:hover { border-color: var(--ink); background: #fff; }
+body[data-page="home"] .panel .round-btn, body[data-page="home"] .cat-card .round-btn { background: var(--ink); color: #fff; }
+body[data-page="home"] .panel .stars--empty, body[data-page="home"] .panel .rate .stars--empty { color: #c7ccd4; }
+body[data-page="home"] .news-card { color: var(--text); }
+body[data-page="home"] .news .h-section, body[data-page="home"] .news .lead { color: #fff; }
+body[data-page="home"] .news .lead { color: rgba(255, 255, 255, .72); }
+body[data-page="home"] .rp--panel .rp__stage .round-btn { background: rgba(255, 255, 255, .92); color: #0d1522; }
+@media (min-width: 720px) { body[data-page="home"] .panel { padding: 64px 40px 48px; border-radius: 36px; } }
+@media (min-width: 900px) { body[data-page="home"] .cta-box { border-radius: 36px; } }
+@media (max-width: 719px) { .news__track { scroll-padding-inline: var(--gutter); } body[data-page="home"] .news-card { flex-basis: 46%; } body[data-page="home"] .news-card h3 { font-size: 14px; } body[data-page="home"] .news-card p { display: none; } }
