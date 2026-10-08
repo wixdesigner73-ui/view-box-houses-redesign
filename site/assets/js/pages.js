@@ -1,8 +1,9 @@
 /* About · Blog · Post · Contact */
 window.VBPage = function (UI) {
-  const { $, ico, img, params, fmtDate } = UI;
+  const { $, ico, img, params, fmtDate, setBg } = UI;
   const VB = window.VB;
   const page = document.body.dataset.page;
+  if (page === "about") setBg(VB.BG.global);
   const ctaBox = `<section class="section on-dark" style="padding-block:40px"><div class="container"><div class="cta-box"><h2>Ready to find your perfect home?</h2><p>Get a personalized offer from our team.</p><a class="btn btn--dark" href="contact.html">Contact Us ${ico("arrow")}</a></div></div></section>`;
 
   if (page === "about") {

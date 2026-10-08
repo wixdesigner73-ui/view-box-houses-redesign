@@ -1,8 +1,9 @@
 /* Showrooms page – deep-linkable (showrooms.html?s=brasov#brasov), status-driven, Schedule-a-Visit modal, Google Maps directions */
 window.VBPage = function (UI) {
-  const { $, $$, ico, img, params, openModal } = UI;
+  const { $, $$, ico, img, params, openModal, setBg } = UI;
   const VB = window.VB;
   const S = VB.SITE.social;
+  setBg(VB.BG.showrooms);
 
   const mapsUrl = (s) => `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
   const statusPill = (s) => `<span class="status status--${s.status}"><i></i>${VB.STATUS_LABEL[s.status]}</span>`;

@@ -3,10 +3,11 @@
    gallery + intro → exterior colour → standard features → configurator → why we recommend → (closing hero)
    → interior → 3D floor plan → specs → reviews → deliveries banner → FAQ → CTA */
 window.VBPage = function (UI) {
-  const { $, $$, ico, img, params, stars5, openModal, deliveriesBanner } = UI;
+  const { $, $$, ico, img, params, stars5, openModal, deliveriesBanner, setBg } = UI;
   const VB = window.VB;
   const p = VB.productBySlug(params.get("p")) || VB.productBySlug("london");
   const cat = VB.categoryBySlug(p.category);
+  setBg(cat.image.hero);
   const isCapsule = p.kind === "capsule";
   const money = VB.money;
   document.title = `${p.title || p.name} – ${cat.name} – View Box Houses`;

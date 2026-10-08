@@ -1,7 +1,8 @@
 /* Deliveries / Real Projects – ?model=london or ?cat=tiny-homes filters the list */
 window.VBPage = function (UI) {
-  const { $, $$, ico, img, params } = UI;
+  const { $, $$, ico, img, params, setBg } = UI;
   const VB = window.VB;
+  setBg(VB.BG.deliveries);
   const dev = params.get("dev") === "1"; // ?dev=1 marks images that are still placeholders
   const flag = (t) => (dev && t ? `<span class="todo-flag">Placeholder</span>` : "");
 

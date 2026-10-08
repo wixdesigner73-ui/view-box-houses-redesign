@@ -13,7 +13,8 @@ Mobile-first redesign built from the client mockups, the existing site content a
 > **Not published to Wix.** There is no Wix connection in this environment, so nothing was pushed to the Wix Studio site. `site/` is the pixel-level reference/prototype and `wix/` is what to build/paste in the editor.
 
 ## What is implemented (all verified in a browser at 390 px and 1440 px)
-- Homepage: cinematic hero, editorial *Real Projects* slider (replaces the old deliveries block), *Find your View Box*, showrooms with pills, global presence, news, CTA, minimal footer, live-chat button.
+- Homepage: cinematic hero → **full-screen category slider** (links to the 5 category pages) → *Find your View Box* → showrooms with pills → *Real Projects* (deliveries, further down the page) → global presence, news, CTA, minimal footer, live-chat button.
+- **Dark theme on every page**: a fixed image + dark overlay sits behind all pages (the category/product page uses its own hero image); no white sections.
 - Header: overlay/transparent over dark heroes, solid on scroll; mobile utility bar + hamburger drawer; desktop nav with Homes mega-menu, language selector, *Talk to Sales*.
 - 5 category pages from one template (capsule grid, tiny feature card, expandable columns, modular & floating rows).
 - **Colour swatches really swap the image** (category cards and product pages); products without a render for a colour show a hatched swatch + "render coming soon" instead of faking it.

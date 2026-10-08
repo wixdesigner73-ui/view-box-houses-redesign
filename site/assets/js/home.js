@@ -24,15 +24,31 @@ window.VBPage = function (UI) {
           <li>${ico("leaf")}<span>Sustainable living</span></li>
           <li>${ico("users")}<span>Thousands of happy customers</span></li>
         </ul>
-        <a class="scroll-hint" href="#real-projects">${ico("scroll")}<span>Scroll to explore</span></a>
+        <a class="scroll-hint" href="#homes">${ico("scroll")}<span>Scroll to explore</span></a>
       </div>
     </div>
   </section>`;
 
-  /* 2. real projects – editorial slider */
+  /* 2. full-screen slider linking to the category pages (client request: right after the hero) */
+  const cc = VB.CATEGORIES;
+  const fs = `
+  <section class="fs" id="homes" aria-roledescription="carousel" aria-label="Our homes">
+    ${cc.map((c, i) => `<article class="fs__slide" aria-label="${c.name}">${img(c.image.hero, c.name)}
+      <a class="fs__link" href="${categoryUrl(c)}" aria-label="Explore ${c.name}" tabindex="-1"></a>
+      <div class="fs__copy"><div class="container">
+        <span class="fs__badge">${c.badge}</span>
+        <h2>${c.name}</h2><p>${c.lead}</p>
+        <div class="fs__meta">${rate(c.rating, c.reviews)}<span>From <b>${VB.money(VB.fromPrice(c.slug))}</b> + VAT</span></div>
+        <a class="btn btn--light" href="${categoryUrl(c)}">Explore ${c.name} ${ico("arrow")}</a>
+      </div></div></article>`).join("")}
+    <div class="fs__arrows"><button class="round-btn" data-prev aria-label="Previous">${ico("arrowLeft")}</button><button class="round-btn" data-next aria-label="Next">${ico("arrow")}</button></div>
+    <div class="fs__bar"><div class="container"><div class="fs__tabs">${cc.map((c, i) => `<button aria-label="${c.name}"><i>0${i + 1}</i><span>${c.name}</span></button>`).join("")}</div></div></div>
+  </section>`;
+
+  /* 3. real projects – editorial slider (sits further down the page) */
   const rp = VB.FEATURED_PROJECTS;
   const projects = `
-  <section class="rp rp--panel" id="real-projects">
+  <section class="rp rp--panel" id="deliveries">
     <div class="container"><div class="panel">
       <div class="sec-head center reveal"><span class="eyebrow eyebrow--ink">Real projects</span>
         <h2 class="h-section" style="margin-top:12px">Delivered Across Europe</h2>
@@ -47,7 +63,7 @@ window.VBPage = function (UI) {
     </div></div>
   </section>`;
 
-  /* 3. find your view box */
+  /* 4. find your view box */
   const cats = `
   <section class="section on-white on-light-text" id="find">
     <div class="container">
@@ -67,7 +83,7 @@ window.VBPage = function (UI) {
     </div>
   </section>`;
 
-  /* 4. showrooms */
+  /* 5. showrooms */
   const order = VB.HOME_PILLS.map((s) => VB.SHOWROOMS.find((x) => x.slug === s)).filter(Boolean);
   const showrooms = `
   <section class="sr" id="showrooms">
@@ -81,7 +97,7 @@ window.VBPage = function (UI) {
     </div></div>
   </section>`;
 
-  /* 5. global presence */
+  /* 6. global presence */
   const st = VB.SITE.stats;
   const global = `
   <section class="gp"><div class="gp__bg">${img(VB.BG.global, "")}</div>
@@ -89,7 +105,7 @@ window.VBPage = function (UI) {
       <div class="stats"><div class="stat"><b>${st.homes}</b><span>Homes delivered</span></div><div class="stat"><b>${st.countries}</b><span>Countries shipped</span></div>
       <div class="stat"><b>${st.rating}</b><span>Average customer rating</span></div><div class="stat"><b>${st.showrooms}</b><span>European showrooms</span></div></div></div></section>`;
 
-  /* 6. news */
+  /* 7. news */
   const news = `
   <section class="section on-dark news" id="news"><div class="container">
     <div class="sec-head center reveal"><span class="eyebrow">Latest news</span><h2 class="h-section" style="margin-top:12px">Stay Updated</h2>
@@ -98,14 +114,16 @@ window.VBPage = function (UI) {
     <div class="reveal" style="display:flex;justify-content:center;margin-top:26px"><a class="btn btn--light" href="blog.html">View All News ${ico("arrow")}</a></div>
   </div></section>`;
 
-  /* 7. final CTA */
+  /* 8. final CTA */
   const cta = `
   <section class="section on-dark" style="padding-top:0"><div class="container"><div class="cta-box reveal">
     <h2>Ready to find your perfect home?</h2><p>Get a personalized offer from our team.</p>
     <a class="btn btn--dark" href="contact.html">Contact Us ${ico("arrow")}</a></div></div></section>`;
 
-  $("#main").innerHTML = hero + projects + cats + showrooms + global + news + cta;
+  $("#main").innerHTML = hero + fs + cats + showrooms + projects + global + news + cta;
   UI.slider($("#rp-stage"), { auto: 7000 });
+  const fsEl = $(".fs");
+  UI.slider(fsEl, { auto: 7000, slide: ".fs__slide", dots: ".fs__tabs button", scope: fsEl });
 
   $("#watch-video").addEventListener("click", () => {
     const v = VB.SITE.video;
