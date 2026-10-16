@@ -10,11 +10,11 @@ window.VBPage = function (UI) {
   const modelName = model && (VB.productBySlug(model) || {}).name;
   const catName = cat && (VB.categoryBySlug(cat) || {}).name;
 
-  const pages = VB.DELIVERY_PAGES.map((p) => ({ ...p, image: p.gallery[1], sub: p.subtitle, page: true }));
-  const featured = pages.concat(VB.FEATURED_PROJECTS).filter((p) => !model || p.model === model);
+  const pages = VB.DELIVERY_PAGES.map((p) => ({ ...p, sub: p.summary, page: true, todo: p.placeholder }));
+  const featured = pages.concat(VB.FEATURED_PROJECTS.filter((p) => !p.page)).filter((p) => !model || p.model === model);
   const list = VB.DELIVERIES.filter((d) => (!model || d.model === model) && (!cat || d.category === cat));
 
-  const dcard = (d, feat) => { const inner = `${flag(!d.page)}${img(d.image, d.title)}
+  const dcard = (d, feat) => { const inner = `${flag(d.page ? d.placeholder : true)}${img(d.image, d.title)}
     <div><small>${feat ? d.location : (VB.categoryBySlug(d.category) || {}).name}</small><h3>${d.title}</h3><p>${feat ? d.sub : d.location}</p>${d.page ? `<span class="link-arrow">Read the story ${ico("arrow")}</span>` : ""}</div>`;
     const cls = `dcard ${feat ? "dcard--feature" : ""} reveal`;
     return d.page ? `<a class="${cls}" id="${d.slug}" href="delivery.html?s=${d.slug}">${inner}</a>` : `<article class="${cls}" ${feat ? `id="${d.slug}"` : ""}>${inner}</article>`; };

@@ -54,7 +54,7 @@ window.VBPage = function (UI) {
         <h2 class="h-section" style="margin-top:12px">Delivered Across Europe</h2>
         <p class="lead">From mountains to beaches, from cities to countryside. View Box Houses are already changing lives.</p></div>
       <div class="reveal"><div class="rp__stage" id="rp-stage">
-        ${rp.map((p) => `<article class="rp__slide">${img(p.image, p.title)}<a class="rp__link" href="deliveries.html#${p.slug}" aria-label="${p.title}"></a>
+        ${rp.map((p) => `<article class="rp__slide">${img(p.image, p.title)}<a class="rp__link" href="${p.page ? "delivery.html?s=" + p.page : "deliveries.html#" + p.slug}" aria-label="${p.title}"></a>
           <div class="rp__cap"><h3>${p.title}</h3><small>${p.location}</small></div></article>`).join("")}
         <div class="rp__nav"><button class="round-btn" data-prev aria-label="Previous project">${ico("arrowLeft")}</button><button class="round-btn" data-next aria-label="Next project">${ico("arrow")}</button><span class="rp__count">1 / ${rp.length}</span></div>
       </div>
