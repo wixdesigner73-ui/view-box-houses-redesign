@@ -646,7 +646,8 @@
     "swatchHex": "#7a4a2b",
     "description": "Wood finish",
     "aiImages": [
-      "site/assets/img/categories/tiny-homes-hero.jpg"
+      "site/assets/img/categories/tiny-homes-hero.jpg",
+      "site/assets/img/mockup/tiny-home.jpg"
     ],
     "studioImage": null,
     "hasRender": true,
@@ -659,6 +660,7 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
+      "site/assets/img/mockup/expandable-37.jpg",
       "site/assets/img/categories/expandable-containers-hero.jpg"
     ],
     "studioImage": null,
@@ -672,6 +674,7 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
+      "site/assets/img/mockup/expandable-74.jpg",
       "site/assets/img/categories/expandable-containers-hero.jpg"
     ],
     "studioImage": null,
@@ -685,6 +688,7 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
+      "site/assets/img/mockup/modular-m1.jpg",
       "site/assets/img/categories/modular-homes-hero.jpg"
     ],
     "studioImage": null,
@@ -698,6 +702,7 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
+      "site/assets/img/mockup/modular-m2.jpg",
       "site/assets/img/categories/modular-homes-hero.jpg"
     ],
     "studioImage": null,
@@ -711,6 +716,7 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
+      "site/assets/img/mockup/saint-tropez.jpg",
       "site/assets/img/categories/modular-homes-hero.jpg"
     ],
     "studioImage": null,
@@ -724,7 +730,12 @@
     "swatchHex": "#6a3f24",
     "description": "As shown",
     "aiImages": [
-      "site/assets/img/categories/modular-homes-hero.jpg"
+      "site/assets/img/mockup/base70-6.jpg",
+      "site/assets/img/mockup/base70-2.jpg",
+      "site/assets/img/mockup/base70-3.jpg",
+      "site/assets/img/mockup/base70-4.jpg",
+      "site/assets/img/mockup/base70-5.jpg",
+      "site/assets/img/mockup/base70-7.jpg"
     ],
     "studioImage": null,
     "hasRender": true,
@@ -737,6 +748,7 @@
     "swatchHex": "#f4f4f1",
     "description": "Standard white finish",
     "aiImages": [
+      "site/assets/img/mockup/london-floating.jpg",
       "site/assets/img/categories/floating-homes-hero.jpg"
     ],
     "studioImage": null,
@@ -794,6 +806,7 @@
     "swatchHex": "#f4f4f1",
     "description": "Standard white finish",
     "aiImages": [
+      "site/assets/img/mockup/barcelona-floating.jpg",
       "site/assets/img/categories/floating-homes-hero.jpg"
     ],
     "studioImage": null,
@@ -851,7 +864,7 @@
     "swatchHex": "#f4f4f1",
     "description": "Standard white finish",
     "aiImages": [
-      "site/assets/img/categories/floating-homes-hero.jpg"
+      "site/assets/img/mockup/lightning-mcqueen.jpg"
     ],
     "studioImage": null,
     "hasRender": true,

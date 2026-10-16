@@ -20,7 +20,7 @@ Mobile-first redesign built from the client mockups, the existing site content a
 - **Colour swatches really swap the image** (category cards and product pages); products without a render for a colour show a hatched swatch + "render coming soon" instead of faking it.
 - Product pages: AI/lifestyle renders first, colour picker + colour gallery, configurator (recommended/optional add-ons and live total from the client's price sheet — totals reconcile with the sheet), 3 interior styles × rooms, 360° tour links, 3D floor plan (+tabs when >1 plan), specs, FAQ, *Real Projects — {model}* banner → `deliveries.html?model=…` (no showroom list on product pages).
 - Showrooms: all 6 existing locations, status field (Open / By appointment / Opening soon / Unavailable), **home pill → `showrooms.html?s=slug#slug` scrolls to and highlights that showroom**, Schedule-a-Visit modal, Directions → Google Maps.
-- Deliveries (filterable), About, Blog, Post, Contact.
+- Deliveries (filterable) with **delivery detail pages** (`delivery.html?s=…`: heading, sub heading, rich-text story, photo gallery + lightbox; first one = Antalya in Huși, text and photos taken from the client's Wix page), About, Blog, Post, Contact.
 
 ## Needs input from the client / known gaps
 1. **Images not in the data folder** (placeholders in use; `?dev=1` on `deliveries.html` marks them): per-colour renders for Floating homes; all Tiny / Expandable / Modular galleries, floor plans (2D/3D) and exterior series; delivery-project photography; the **crane/sunset image** for the Deliveries hero and product banner (only a WhatsApp screenshot was received — send the original file; slot = `BG.deliveries` / `BG.banner` in `site/assets/js/data.js`); two-storey house renders.

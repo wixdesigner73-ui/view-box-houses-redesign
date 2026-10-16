@@ -13,11 +13,12 @@ Child collections join to their parent on the **text slug** (not a Wix reference
 | **AddOns** | product (text slug), name, price (number), group (recommended / optional), defaultSelected (boolean), sortOrder | Imported from the client's *Prețuri & Add-ons* sheet (EUR excl. VAT). |
 | **Showrooms** | slug (unique), city, country, venue, address · **status** (Open / By appointment / Opening soon / Unavailable) · statusMessage, hours, contactName, phone · latitude, longitude, mapsUrl · showOnHome (boolean) · sortOrder | **Change `status` (and `statusMessage`) in the CMS and the showroom card, the homepage pill dot and the button label all update.** |
 | **VisitRequests** | showroom (text slug), name, email, phone, preferredDate, preferredTime, model, message, createdAt | Written by the *Schedule a Visit* lightbox through `backend/visitRequests.web.js`. Permissions: Anyone can *insert* (via backend only), only admins read. |
-| **Deliveries** | slug, title, subtitle, location, category (text slug), product (text slug), image, featured (boolean), sortOrder | `?model=` / `?cat=` filtering is done on the page. All current images are placeholders (`imageIsPlaceholder`). |
+| **Deliveries** | slug, **title** (heading), **subtitle** (sub heading), location, category (text slug), product (text slug), image (card/cover), **gallery** (media gallery / multi-image), **body** (Rich text = the "paragraph text" field: h2 headings, paragraphs, bullet lists), featured (boolean), sortOrder | `?model=` / `?cat=` filtering is done on the page. Rows with a `body` + `gallery` get a full detail page (prototype: `site/delivery.html`). The other cards still use placeholder images (`imageIsPlaceholder`). |
 | *Blog* | use the **Wix Blog** app | `BlogPosts_reference.json` only holds the two existing posts for reference. |
 
 **Dynamic pages**
 - `Categories (Title)` → `/homes/{slug}` – category page
 - `Products (Title)` → `/homes/{category}/{slug}` – product page
 - `Showrooms` – a normal page with a repeater (so `/showrooms?s=brasov` works)
-- `Deliveries` – a normal page with a repeater
+- `Deliveries` – a normal page with a repeater (cards link to the item page)
+- `Deliveries (Title)` → `/deliveries-1/{title}` – delivery detail page, code in `velo/delivery-page.js`

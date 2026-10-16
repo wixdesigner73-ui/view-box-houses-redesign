@@ -1606,5 +1606,77 @@
     "group": "optional",
     "defaultSelected": false,
     "sortOrder": 15
+  },
+  {
+    "product": "tiny-home",
+    "name": "Premium bed + mattress",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "tiny-home",
+    "name": "Underfloor heating + pipe protection",
+    "price": 1000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 2
+  },
+  {
+    "product": "tiny-home",
+    "name": "6 additional wheels (solid rubber)",
+    "price": 2100,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "tiny-home",
+    "name": "2 clothes-hanging stands",
+    "price": 120,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 2
+  },
+  {
+    "product": "tiny-home",
+    "name": "House assembly",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 3
+  },
+  {
+    "product": "expandable-37",
+    "name": "Fully Assembled Package",
+    "price": 2500,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "expandable-37",
+    "name": "On-site expansion",
+    "price": 1000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
+  },
+  {
+    "product": "expandable-74",
+    "name": "Fully Assembled Package",
+    "price": 5000,
+    "group": "recommended",
+    "defaultSelected": true,
+    "sortOrder": 1
+  },
+  {
+    "product": "expandable-74",
+    "name": "On-site expansion",
+    "price": 2000,
+    "group": "optional",
+    "defaultSelected": false,
+    "sortOrder": 1
   }
 ]

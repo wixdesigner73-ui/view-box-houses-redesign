@@ -6,6 +6,7 @@ const pages = [
   ["category", "category", "light", "category", "Homes – View Box Houses", "Explore View Box Houses models."],
   ["product", "product", "light", "product", "Model – View Box Houses", "View Box Houses model details, colours, interiors and configuration."],
   ["deliveries", "deliveries", "overlay", "deliveries", "Deliveries – View Box Houses", "Real projects delivered across Europe."],
+  ["delivery", "delivery", "light", "delivery", "Delivery – View Box Houses", "A real View Box Houses project delivered in Europe."],
   ["showrooms", "showrooms", "overlay", "showrooms", "Showrooms – View Box Houses", "Visit a View Box showroom in Romania, France or Ireland."],
   ["about", "about", "light", "pages", "About – View Box Houses", "A house is a quiet act of engineering."],
   ["blog", "blog", "light", "pages", "News – View Box Houses", "Stories, insights and updates from the world of modular living."],
@@ -32,6 +33,7 @@ for (const [file, page, header, script, title, desc] of pages) {
 <script src="assets/js/mockup.js"></script>
 <script src="assets/js/addons.js"></script>
 <script src="assets/js/content.js"></script>
+<script src="assets/js/deliveries-content.js"></script>
 <script src="assets/js/data.js"></script>
 <script src="assets/js/core.js"></script>
 <script src="assets/js/${script}.js"></script>

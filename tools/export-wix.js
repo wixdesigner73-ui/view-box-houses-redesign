@@ -2,7 +2,7 @@
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const ROOT = path.resolve(__dirname, "..");
 const ctx = { window: {}, console }; ctx.window.window = ctx.window; vm.createContext(ctx);
-for (const f of ["manifest.js", "addons.js", "data.js"]) vm.runInContext(fs.readFileSync(path.join(ROOT, "site/assets/js", f), "utf8"), ctx, { filename: f });
+for (const f of ["manifest.js", "mockup.js", "addons.js", "content.js", "deliveries-content.js", "data.js"]) vm.runInContext(fs.readFileSync(path.join(ROOT, "site/assets/js", f), "utf8"), ctx, { filename: f });
 const VB = ctx.window.VB;
 const out = path.join(ROOT, "wix", "cms", "seed"); fs.mkdirSync(out, { recursive: true });
 const w = (n, d) => fs.writeFileSync(path.join(out, n + ".json"), JSON.stringify(d, null, 2));
@@ -33,5 +33,6 @@ const STATUS = { open: "Open", appointment: "By appointment", soon: "Opening soo
 w("Showrooms", VB.SHOWROOMS.map((s, i) => ({ slug: s.slug, city: s.city, country: s.country, venue: s.venue, address: s.address, status: STATUS[s.status], statusMessage: s.message || null, hours: s.hours || null, contactName: s.contact || null, phone: s.phone || null, latitude: s.lat, longitude: s.lng, mapsUrl: `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`, showOnHome: VB.HOME_PILLS.includes(s.slug), sortOrder: i + 1 })));
 
 w("Deliveries", [...VB.FEATURED_PROJECTS.map((d, i) => ({ slug: d.slug, title: d.title, subtitle: d.sub, location: d.location, product: d.model, image: img(d.image), featured: true, imageIsPlaceholder: true, sortOrder: i + 1 })), ...VB.DELIVERIES.map((d, i) => ({ slug: d.slug, title: d.title, subtitle: null, location: d.location, category: d.category, product: d.model, image: img(d.image), featured: false, imageIsPlaceholder: true, sortOrder: 100 + i }))]);
+w("DeliveryPages", VB.DELIVERY_PAGES.map((d, i) => ({ slug: d.slug, title: d.title, subtitle: d.subtitle, location: d.location, category: d.category, product: d.model, image: img(d.gallery[1]), gallery: d.gallery.map(img), body: d.body.trim(), featured: true, sortOrder: i }))); // merge into the Deliveries collection
 w("BlogPosts_reference", VB.POSTS);
 console.log({ products: products.length, colors: colors.length, interiors: interiors.length, plans: plans.length, addons: addons.length });
