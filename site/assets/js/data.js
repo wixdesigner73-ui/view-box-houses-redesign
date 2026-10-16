@@ -180,8 +180,8 @@
   /* ---------- deliveries / real projects ---------- */
   const house = (slug, color, i = 0) => M.houses[slug][color].ai[i];
   const FEATURED_PROJECTS = [
-    { slug: "madeira-bistrita-nasaud", title: "Madeira Model Delivered to Bistrița-Năsăud, Romania", sub: "A Forest Retreat Surrounded by Nature, Thermal Waters, and Complete Relaxation", location: "Bistrița-Năsăud, Romania", model: "madeira", image: house("madeira", "brown"), todo: "Replace with project photography" },
-    { slug: "floating-village-mamaia", title: "Floating Village Project in Mamaia, Romania", sub: "Most Ambitious Capsule House Projects In The World", location: "Mamaia, Romania", model: "london-floating", image: CAT("floating-homes").hero, todo: "Replace with project photography" },
+    { slug: "madeira-bistrita-nasaud", title: "Madeira Model Delivered to Bistrița-Năsăud, Romania", sub: "A Forest Retreat Surrounded by Nature, Thermal Waters, and Complete Relaxation", location: "Bistrița-Năsăud, Romania", model: "madeira", page: "madeira-model-delivered-to-bistrita-nasaud-romania", image: house("madeira", "brown"), todo: "Replace with project photography" },
+    { slug: "floating-village-mamaia", title: "Floating Village Project in Mamaia, Romania", sub: "Most Ambitious Capsule House Projects In The World", location: "Mamaia, Romania", model: "london-floating", page: "floating-village-project-in-mamaia-romania", image: CAT("floating-homes").hero, todo: "Replace with project photography" },
     { slug: "two-london-brasov", title: "Two London Models Delivered Near Brașov, Romania", sub: "A Lakeside Project That Redefines Luxury Modular Living", location: "Near Brașov, Romania", model: "london", image: house("london", "green"), todo: "Replace with project photography" },
   ];
   const DELIVERIES = [
@@ -202,8 +202,21 @@
     ["Modular Home M1 (Project 2)", "modular-homes", "modular-m1", CAT("modular-homes").hero],
   ].map(([title, category, model, image], i) => ({ slug: "delivery-" + (i + 1), title, category, model, image, location: "Delivered in Europe" }));
 
-  /* deliveries that have a full detail page (content lives in deliveries-content.js / the Wix CMS) */
-  const DELIVERY_PAGES = window.VB_DELIVERY_PAGES || [];
+  /* deliveries that have a full detail page – CMS-shaped records in deliveries-content.js, normalised here for the templates */
+  const SMALL = new Set(["to", "of", "at", "in", "on", "the", "a", "and"]);
+  const titleCase = (t) => t.toLowerCase().split(" ").map((w, i) => (i && SMALL.has(w) ? w : w.replace(/(^|-)(\S)/g, (m, sep, c) => sep + c.toUpperCase()))).join(" ");
+  const PAGE_PLACEHOLDER = { "White Barcelona": house("barcelona", "white"), Barcelona: house("barcelona", "white"), Madeira: house("madeira", "brown"), "Floating Village": CAT("floating-homes").hero };
+  const DELIVERY_PAGES = (window.VB_DELIVERY_PAGES || []).map((d) => {
+    const photos = d.subPagePhotos || [];
+    return {
+      slug: d.slug, sortOrder: d.sortOrder, layout: d.layout, tags: d.houseTags,
+      title: titleCase(d.subPageHeading), subtitle: d.subPageSubheading, summary: d.cardSummary,
+      location: d.cityLocation + ", " + d.country, city: d.cityLocation, body: d.subPageBody, alts: d.alts,
+      model: d.productSlug, category: d.categorySlug,
+      gallery: photos, placeholder: !photos.length,
+      image: photos.length ? photos[Math.min(1, photos.length - 1)] : PAGE_PLACEHOLDER[d.houseModel],
+    };
+  }).sort((a, b) => a.sortOrder - b.sortOrder);
 
   /* ---------- blog ---------- */
   const POSTS = [

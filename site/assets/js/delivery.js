@@ -7,25 +7,27 @@ window.VBPage = function (UI) {
   const d = VB.DELIVERY_PAGES.find((x) => x.slug === params.get("s")) || VB.DELIVERY_PAGES[0];
   const product = VB.productBySlug(d.model), cat = VB.categoryBySlug(d.category);
   const alt = (i) => (d.alts && d.alts[i]) || `${d.title} – photo ${i + 1}`;
+  const photos = d.gallery.length ? d.gallery : [d.image]; // no photos in the CMS yet → show the card image
+  const hasGallery = d.gallery.length > 0;
   const offer = `contact.html${product ? "?model=" + product.slug : ""}`;
   document.title = `${d.title} – View Box Houses`;
-  setBg(d.gallery[0]);
+  setBg(photos[0]);
 
-  const more = VB.DELIVERY_PAGES.filter((x) => x.slug !== d.slug).concat(VB.FEATURED_PROJECTS);
+  const more = VB.DELIVERY_PAGES.filter((x) => x.slug !== d.slug);
 
   $("#main").innerHTML = `
   <section class="dhero"><div class="container dhero__in">
     <div class="dhero__copy reveal">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="deliveries.html">Deliveries</a><span>/</span><span>${d.location.split(",")[0]}</span></nav>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="deliveries.html">Deliveries</a><span>/</span><span>${d.city.split(",")[0]}</span></nav>
       <span class="eyebrow">Real project · ${d.location}</span>
       <h1>${d.title}</h1>
       <p class="dhero__sub">${d.subtitle}</p>
-      <div class="btn-row"><a class="btn btn--light" href="#gallery">View all ${d.gallery.length} photos ${ico("arrow")}</a><a class="btn btn--ghost" href="${offer}">Talk to Sales</a></div>
+      <div class="btn-row">${hasGallery ? `<a class="btn btn--light" href="#gallery">View all ${photos.length} photos ${ico("arrow")}</a>` : ""}<a class="btn ${hasGallery ? "btn--ghost" : "btn--light"}" href="${offer}">Talk to Sales</a></div>
     </div>
-    <div class="dhero__media reveal" id="dh-stage" style="--d:.1s">
-      ${d.gallery.map((s, i) => `<button class="dh__slide" data-i="${i}" aria-label="Open photo ${i + 1}">${img(s, alt(i))}</button>`).join("")}
+    <div class="dhero__media reveal ${photos.length < 2 ? "is-single" : ""}" id="dh-stage" style="--d:.1s">
+      ${photos.map((s, i) => `<button class="dh__slide" data-i="${i}" aria-label="Open photo ${i + 1}">${img(s, alt(i))}</button>`).join("")}
       <div class="dh__nav"><button class="round-btn" data-prev aria-label="Previous photo">${ico("arrowLeft")}</button><button class="round-btn" data-next aria-label="Next photo">${ico("arrow")}</button></div>
-      <span class="dh__count">1 / ${d.gallery.length}</span>
+      <span class="dh__count">1 / ${photos.length}</span>
     </div>
   </div></section>
 
@@ -43,10 +45,10 @@ window.VBPage = function (UI) {
     </div></aside>
   </div></section>
 
-  <section class="dgal" id="gallery"><div class="container">
+  ${hasGallery ? `<section class="dgal" id="gallery"><div class="container">
     <div class="sec-head reveal"><span class="eyebrow">Photo gallery</span><h2 class="h-section" style="margin-top:12px">See it for yourself</h2></div>
-    <div class="masonry">${d.gallery.map((s, i) => `<button class="masonry__item reveal" data-i="${i}" aria-label="Open photo ${i + 1}">${img(s, alt(i))}</button>`).join("")}</div>
-  </div></section>
+    <div class="masonry">${photos.map((s, i) => `<button class="masonry__item reveal" data-i="${i}" aria-label="Open photo ${i + 1}">${img(s, alt(i))}</button>`).join("")}</div>
+  </div></section>` : ""}
 
   <section class="section on-dark" style="padding-top:0"><div class="container"><div class="cta-box reveal">
     <h2>Modern homes, delivered across Europe.</h2>
@@ -55,11 +57,14 @@ window.VBPage = function (UI) {
   <section class="section on-dark dmore"><div class="container">
     <div class="sec-head"><span class="eyebrow">More real projects</span></div>
     <div class="dgrid">${more.slice(0, 3).map((x) => {
-      const page = VB.DELIVERY_PAGES.includes(x);
-      const inner = `${img(page ? x.gallery[1] : x.image, x.title)}<div><small>${x.location}</small><h3>${x.title}</h3></div>`;
-      return page ? `<a class="dcard" href="delivery.html?s=${x.slug}">${inner}</a>` : `<a class="dcard" href="deliveries.html#${x.slug}">${inner}</a>`;
+      return `<a class="dcard" href="delivery.html?s=${x.slug}">${img(x.image, x.title)}<div><small>${x.location}</small><h3>${x.title}</h3></div></a>`;
     }).join("")}</div>
   </div></section>`;
+
+  /* intro: first paragraph is the lead; a very short second one is the punchline */
+  const ps = $$(".rich > p");
+  if (ps[0]) ps[0].classList.add("lead");
+  if (ps[1] && ps[1].textContent.length < 60) ps[1].classList.add("punch");
 
   /* hero carousel */
   const stage = $("#dh-stage"), slides = $$(".dh__slide", stage), count = $(".dh__count", stage);
@@ -78,7 +83,7 @@ window.VBPage = function (UI) {
       <img alt=""><button class="lb__prev round-btn" aria-label="Previous">${ico("arrowLeft")}</button><button class="lb__next round-btn" aria-label="Next">${ico("arrow")}</button><span class="lb__count"></span>`;
     document.body.appendChild(lb); document.body.style.overflow = "hidden";
     const im = $("img", lb);
-    const show = (k) => { n = (k + d.gallery.length) % d.gallery.length; im.src = d.gallery[n]; im.alt = alt(n); $(".lb__count", lb).textContent = `${n + 1} / ${d.gallery.length}`; };
+    const show = (k) => { n = (k + photos.length) % photos.length; im.src = photos[n]; im.alt = alt(n); $(".lb__count", lb).textContent = `${n + 1} / ${photos.length}`; };
     const close = () => { lb.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", key); };
     const key = (e) => { if (e.key === "Escape") close(); if (e.key === "ArrowRight") show(n + 1); if (e.key === "ArrowLeft") show(n - 1); };
     document.addEventListener("keydown", key);
