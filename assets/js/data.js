@@ -202,6 +202,9 @@
     ["Modular Home M1 (Project 2)", "modular-homes", "modular-m1", CAT("modular-homes").hero],
   ].map(([title, category, model, image], i) => ({ slug: "delivery-" + (i + 1), title, category, model, image, location: "Delivered in Europe" }));
 
+  /* deliveries that have a full detail page (content lives in deliveries-content.js / the Wix CMS) */
+  const DELIVERY_PAGES = window.VB_DELIVERY_PAGES || [];
+
   /* ---------- blog ---------- */
   const POSTS = [
     { slug: "volume-discounts-capsule-houses", title: "Are There Discounts for Multiple Units?", date: "2026-07-03", image: house("amalfi", "wood", 1),
@@ -240,5 +243,5 @@
     return Math.min.apply(null, prices);
   }
 
-  window.VB = { SITE, COLORS, COLOR_ORDER, CATEGORIES, PRODUCTS, SHOWROOMS, STATUS_LABEL, HOME_PILLS, FEATURED_PROJECTS, DELIVERIES, POSTS, BG, CAPSULE_STANDARD, INSULATION, money, productsOf, productBySlug, categoryBySlug, imagesFor, cardImage, fromPrice };
+  window.VB = { SITE, COLORS, COLOR_ORDER, CATEGORIES, PRODUCTS, SHOWROOMS, STATUS_LABEL, HOME_PILLS, FEATURED_PROJECTS, DELIVERIES, DELIVERY_PAGES, POSTS, BG, CAPSULE_STANDARD, INSULATION, money, productsOf, productBySlug, categoryBySlug, imagesFor, cardImage, fromPrice };
 })();
